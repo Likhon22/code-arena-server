@@ -38,9 +38,11 @@ const getAnswer = async (req, res) => {
     });
   }
 };
+
 const answerController = {
   createAnswer,
   getAnswer,
+ 
 };
 
 module.exports = answerController;
